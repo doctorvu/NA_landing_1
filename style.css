@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-.header {
-    display: flex;
-    justify-content: space-around;
-}
-
-.common {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-=======
 .common {
     background-color: f4f9e2;
 }
@@ -18,6 +7,7 @@
     justify-content: space-around;
     padding: 40px;
 }
+
 .logo {
     margin: 10px;
     color: 62d0df;
@@ -25,22 +15,11 @@
 
 .logo p {
     margin: 0;
->>>>>>> d84dc0b5593e7b968fb708a0107deada80aa365b
 }
 
 .menu {
     display: flex;
-<<<<<<< HEAD
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
-.logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-=======
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .main {
@@ -61,7 +40,6 @@
 
 .connection {
     margin: 10px;
->>>>>>> d84dc0b5593e7b968fb708a0107deada80aa365b
 }
 
 img {
