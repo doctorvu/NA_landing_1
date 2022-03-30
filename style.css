@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header {
     display: flex;
     justify-content: space-around;
@@ -7,10 +8,29 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+=======
+.common {
+    background-color: f4f9e2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.logo {
+    margin: 10px;
+    color: 62d0df;
+}
+
+.logo p {
+    margin: 0;
+>>>>>>> d84dc0b5593e7b968fb708a0107deada80aa365b
 }
 
 .menu {
     display: flex;
+<<<<<<< HEAD
     justify-content: space-evenly;
     flex-direction: row;
 }
@@ -19,6 +39,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+=======
+    justify-content:space-around;
+}
+
+.main {
+    margin: 10px;
+}
+
+.about {
+    margin: 10px;
+}
+
+.course {
+    margin: 10px;
+}
+
+.contacts {
+    margin: 10px;
+}
+
+.connection {
+    margin: 10px;
+>>>>>>> d84dc0b5593e7b968fb708a0107deada80aa365b
 }
 
 img {
