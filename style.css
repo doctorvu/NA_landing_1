@@ -1,46 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    
+}
+
 .common {
+    padding-left: 150px;
+    padding-right: 30px;
     background-color: f4f9e2;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
-    padding: 40px;
+    justify-content: end;
+    margin-bottom: 40px;
 }
+
 .logo {
-    margin: 10px;
-    color: 62d0df;
+    width: 30%;
+    justify-content: right;
+    padding-top: 20px;
+
 }
 
 .logo p {
     margin: 0;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #62D0DF;    
 }
 
 .menu {
+    width: 60%;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
 }
-
-.main {
-    margin: 10px;
-}
-
-.about {
-    margin: 10px;
-}
-
-.course {
-    margin: 10px;
-}
-
-.contacts {
-    margin: 10px;
-}
-
 .connection {
-    margin: 10px;
+    width: 30%;
 }
 
+.connection button{
+    position: relative;
+    top: 20%;
+    left: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 50px;
+    border-color: #62D0DF;
+    border-style: solid;
+    background-color: #62D0DF;
+
+}
+
+.menu_nav {
+    margin: 20px 0px 0px 12px;
+}
+
+.description {
+    padding-bottom: 70px;
+    display: flex;
+}
+
+.description p {
+    font-size: 24px;
+    
+}
+
+.NA {
+    width: 50%;
+}
+
+.NA p {
+    padding-right: 20px;
+}
+
+.foto {
+    width: 40%;
+}
+
+.description .foto  img {
+    border-radius: 150px;
+    width: 600px;
+    
+
+}
+
+.NA h1 {
+    margin: 0;
+}
 img {
     width: 300px;
 }
