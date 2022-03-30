@@ -75,11 +75,11 @@ body {
     padding-right: 20px;
 }
 
-.foto {
+.foto_1 {
     width: 40%;
 }
 
-.description .foto img {
+.description .foto_1 img {
     border-radius: 150px;
     width: 600px;
 }
@@ -90,4 +90,25 @@ body {
 
 img {
     width: 300px;
+}
+
+.principles_NA {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    background-color: #62D0DF;
+}
+
+.main_principles {
+    width: 20%;
+    padding-left: 150px;
+}
+
+.foto_2 {
+    width: 30%;
+    height: 600px;
+}
+
+.foto_2 img {
+    width: 525px;
 }
